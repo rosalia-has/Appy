@@ -17,7 +17,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style/style.css")
+local_css("style.css")
 email_address ="emailcontact@gmail.com"
 
 lottie_file ="https://assets9.lottiefiles.com/packages/lf20_ggwq3ysg.json"
